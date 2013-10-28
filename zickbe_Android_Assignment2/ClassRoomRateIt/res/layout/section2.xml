@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/dateInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/timePicker1"
+        android:ems="10"
+        android:text="DD/MM/YYY" />
+
+    <TextView
+        android:id="@+id/TestingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="Section 2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateInput"
+        android:layout_centerHorizontal="true" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timePicker1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/subRatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+
+</RelativeLayout>
